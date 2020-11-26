@@ -434,7 +434,8 @@ article img {
         grid-template-rows: 1fr 10%;
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-areas: "logo logo logo button" "email email call call";
+        grid-template-areas: "logo logo logo button"
+ "email email call call";
     grid-gap: 1em 2em;
   }
   header .contact .wrapper {
@@ -494,6 +495,9 @@ article img {
   .hero .container {
     width: 85%;
   }
+.hero h1{
+           line-height: .8;
+        }
   aside {
     display: block;
   }
