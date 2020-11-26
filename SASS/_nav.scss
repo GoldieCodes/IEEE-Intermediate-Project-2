@@ -1,0 +1,105 @@
+header{
+    
+    p, h3{
+        margin: 0;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .contact{
+        padding: 1.5em 0;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 10%;
+        .wrapper{
+            width: 15%;
+            grid-area: 1 / 1 / 2 / 2;
+            h1{
+                margin-bottom: 0;
+                font-size: 45px;
+                line-height: .4;
+                font-weight: 600;
+            }
+            .logo-decoration{
+                font-size: 18px;
+                
+            }
+        }
+        .call{
+            grid-area: 1 / 3 / span 1 / span 1;
+        }
+        .email{
+            grid-area: 1 / 2 / span 1 / span 1;
+        }
+        .text{
+            width: 87%;
+        }
+        .fas{
+            color: $primary-clr;
+        }
+        button{
+            grid-area: 1 / 4 / 2 / 5;
+            border: none;
+            background: $primary-clr;
+            padding: .75em;
+            box-shadow: 1px 1px 3px #d37235;
+            color: white;
+            cursor: pointer;
+            &:hover, &:focus{
+                opacity: .75;
+            }
+        }
+    }
+
+   .nav{
+       background: $secondary-clr;
+       color: white;
+       padding: .5em 1em;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+    .main-nav{
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+        li{
+            padding: .5em 0;
+           a{
+               color: white;
+               &:hover, &:focus{
+                   color: $primary-clr;
+               }
+           }
+       }
+    }
+
+    .search{
+        position: relative;
+        i{
+            position: absolute;
+            right: .85em;
+            top: .7em;
+        }
+        
+        input{
+            outline: none;
+            padding: .75em .5em;
+            border: .5px solid $auxilliary-decor-clr;
+            border-radius: 30px;
+            background: $secondary-clr;
+            &::placeholder{
+                color: white;
+            }
+            &:focus{
+                border: 1px solid #d37235;
+                background: rgb(194, 191, 191);
+            }
+        }
+    }
+   }
+}

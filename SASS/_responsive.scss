@@ -1,0 +1,71 @@
+@media (max-width: 500px){
+    header{
+        .contact{
+            font-size: small;
+            grid-template-rows: 1fr 10%;
+            grid-template-columns: 1fr 1fr 20%;
+            grid-template-areas: 
+            "logo logo logo"
+            "email call button";
+        
+            .wrapper{
+                grid-area: logo;
+                justify-self: center;
+                width: 40%;
+            }
+            .email{
+                grid-area: email;
+            }
+            .call{
+                grid-area: call;
+            }
+            button{
+                align-self: center;
+                grid-area: button;
+            }
+        }
+    
+        .nav{
+         
+            .main-nav{
+                overflow-x: auto;
+                width: 55%;
+                
+                li{
+                    padding: .5em 0;
+                    margin-right: 1.35em; 
+                }
+            }
+        }
+        .container{
+            width: 100%;
+        }
+    }
+
+    .hero{
+        padding: 5em 3em 7em;
+        background-position: center;
+        .container{
+            width: 85%;
+        }
+    }
+
+    aside{
+        display: block;
+        p{
+            max-width: 300px;
+            margin: 0 auto;
+        }
+    }
+
+    article{
+        display: block;
+      
+        .sticky-note{
+            padding: 1em 0;
+            &.note1{
+                margin-top: 1em;
+            }
+        }
+    }
+}
