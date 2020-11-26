@@ -3,14 +3,15 @@
         .contact{
             font-size: small;
             grid-template-rows: 1fr 10%;
-            grid-template-columns: 1fr 1fr 20%;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-areas: 
-            "logo logo logo"
-            "email call button";
+            "logo logo logo button"
+            "email email call call";
+            grid-gap: 1em 2em;
         
             .wrapper{
                 grid-area: logo;
-                justify-self: center;
+                align-self: center;
                 width: 40%;
             }
             .email{
@@ -22,6 +23,9 @@
             button{
                 align-self: center;
                 grid-area: button;
+            }
+            &.container{
+                width: 95%;
             }
         }
     
@@ -36,10 +40,11 @@
                     margin-right: 1.35em; 
                 }
             }
+            &.container{
+                width: 100%;
+            }
         }
-        .container{
-            width: 100%;
-        }
+      
     }
 
     .hero{
