@@ -1,6 +1,7 @@
 @media (max-width: 500px){
     header{
         .contact{
+            padding-top: 0;
             font-size: small;
             grid-template-rows: 1fr 10%;
             grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -33,7 +34,7 @@
          
             .main-nav{
                 overflow-x: auto;
-                width: 55%;
+                width: 100%;
                 
                 li{
                     padding: .5em 0;
@@ -42,6 +43,11 @@
             }
             &.container{
                 width: 100%;
+            }
+            .search{
+                input{
+                    width: 100%;
+                }
             }
         }
       
