@@ -1,4 +1,4 @@
-@media (max-width: 500px){
+@media (max-width: 650px){
     header{
         .contact{
             padding-top: 0;
@@ -45,6 +45,7 @@
                 width: 100%;
             }
             .search{
+                margin-left: 1em;
                 input{
                     width: 100%;
                 }
@@ -74,6 +75,9 @@
       
         .sticky-note{
             padding: 1em 0;
+            .text{
+                width: 66%;
+            }
             &.note1{
                 margin-top: 1em;
             }

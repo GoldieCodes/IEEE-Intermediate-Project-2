@@ -426,7 +426,7 @@ article img {
      object-fit: cover;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   header .contact {
     padding-top: 0;
     font-size: small;
@@ -481,6 +481,9 @@ article img {
   header .nav.container {
     width: 100%;
   }
+  header .nav .search {
+    margin-left: 1em;
+  }
   header .nav .search input {
     width: 100%;
   }
@@ -503,6 +506,9 @@ article img {
   }
   article .sticky-note {
     padding: 1em 0;
+  }
+  article .sticky-note .text {
+    width: 66%;
   }
   article .sticky-note.note1 {
     margin-top: 1em;
