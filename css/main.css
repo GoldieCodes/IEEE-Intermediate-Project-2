@@ -346,7 +346,7 @@ article .sticky-note i {
 }
 
 article .sticky-note .text {
-  width: 70%;
+  width: 65%;
 }
 
 article .sticky-note h3 {
@@ -527,7 +527,7 @@ article img {
     padding: 1em 0;
   }
   article .sticky-note .text {
-    width: 66%;
+    width: 62%;
   }
   article .sticky-note.note1 {
     margin-top: 1em;
