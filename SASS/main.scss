@@ -3,6 +3,7 @@
 $primary-clr: #FD6001;
 $secondary-clr: #111736;
 $auxilliary-decor-clr: #35394E;
+$primary-box-shadow: 2px 2px 2px #d37235;
 
 
 body{
@@ -66,6 +67,7 @@ body{
             padding: 1em;
             border: none;
             border-radius: 30px;
+            box-shadow: $primary-box-shadow;
             background: $primary-clr;
             margin-top: .75em;
             outline: none;
@@ -128,6 +130,7 @@ article{
             padding: .75em .9em;
             background: $primary-clr;
             border-radius: 50%;
+            box-shadow: $primary-box-shadow;
             color: #fff;
             align-self: start;
             line-height: 1.5;

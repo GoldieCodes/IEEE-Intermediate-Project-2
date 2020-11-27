@@ -113,8 +113,8 @@ header .contact button {
   border: none;
   background: #FD6001;
   padding: .75em;
-  -webkit-box-shadow: 1px 1px 3px #d37235;
-          box-shadow: 1px 1px 3px #d37235;
+  -webkit-box-shadow: 2px 2px 2px #d37235;
+          box-shadow: 2px 2px 2px #d37235;
   color: white;
   cursor: pointer;
 }
@@ -260,6 +260,8 @@ header .nav .search input:focus {
   padding: 1em;
   border: none;
   border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 2px #d37235;
+          box-shadow: 2px 2px 2px #d37235;
   background: #FD6001;
   margin-top: .75em;
   outline: none;
@@ -334,6 +336,8 @@ article .sticky-note i {
   padding: .75em .9em;
   background: #FD6001;
   border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 2px #d37235;
+          box-shadow: 2px 2px 2px #d37235;
   color: #fff;
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;

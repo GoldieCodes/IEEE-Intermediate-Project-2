@@ -46,7 +46,7 @@ header{
             border: none;
             background: $primary-clr;
             padding: .75em;
-            box-shadow: 1px 1px 3px #d37235;
+            box-shadow: $primary-box-shadow;
             color: white;
             cursor: pointer;
             &:hover, &:focus{
