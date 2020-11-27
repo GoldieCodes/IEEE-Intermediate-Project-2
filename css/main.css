@@ -331,7 +331,7 @@ article .sticky-note {
 }
 
 article .sticky-note i {
-  padding: .75em;
+  padding: .75em .9em;
   background: #FD6001;
   border-radius: 50%;
   color: #fff;
@@ -382,12 +382,20 @@ article .note2 {
   grid-area: 3 / 1 / span 1/ span 1;
 }
 
+article .note2 i {
+  padding: .7em 1em;
+}
+
 article .note3 {
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 4 / 1 / span 1/ span 1;
+}
+
+article .note3 i {
+  padding: .75em 1em;
 }
 
 article .note4 {
@@ -404,6 +412,10 @@ article .note5 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 3 / 2 / span 1/ span 1;
+}
+
+article .note5 i {
+  padding: .7em 1em;
 }
 
 article .note6 {
@@ -434,8 +446,7 @@ article img {
         grid-template-rows: 1fr 10%;
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-areas: "logo logo logo button"
- "email email call call";
+        grid-template-areas: "logo logo logo button" "email email call call";
     grid-gap: 1em 2em;
   }
   header .contact .wrapper {
@@ -495,9 +506,9 @@ article img {
   .hero .container {
     width: 85%;
   }
-.hero h1{
-           line-height: 1.1;
-        }
+  .hero h1 {
+    line-height: 1.1;
+  }
   aside {
     display: block;
   }

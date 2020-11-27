@@ -125,7 +125,7 @@ article{
         justify-content: space-between;
 
         i{
-            padding: .75em;
+            padding: .75em .9em;
             background: $primary-clr;
             border-radius: 50%;
             color: #fff;
@@ -155,15 +155,24 @@ article{
     }
     .note2{
         grid-area: 3 / 1 / span 1/ span 1 ;
+        i{
+            padding: .7em 1em;
+        }
     }
     .note3{
         grid-area: 4 / 1 / span 1/ span 1 ;
+        i{
+            padding: .75em 1em;
+        }
     }
     .note4{
         grid-area: 2 / 2 / span 1/ span 1 ;
     }
     .note5{
         grid-area: 3 / 2 / span 1/ span 1 ;
+        i{
+            padding: .7em 1em;
+        }
     }
     .note6{
         grid-area: 4 / 2 / span 1/ span 1 ;
